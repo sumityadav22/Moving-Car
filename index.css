@@ -25,4 +25,12 @@
 	left: 0;
 	right: 0;
 	z-index: 1;
+	background-repeat: repeat-x;
+	animation: highway 5s linear infinite;
+}
+@keyframes highway
+{
+	100%{
+		transform: translateX(-3400px);
+	}
 }
